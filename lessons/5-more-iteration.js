@@ -1,10 +1,12 @@
 function lesson5() {
-  let count = 10
+  let maxNum = prompt('Enter the Maximum:')
+  let incre = prompt('Enter the Increment:')
+  let count = 0
 
-  while (count > 0) {
+  while (maxNum > count) {
     alert(count + '...')
-    count = count - 1
+    count = count + incre
   }
   
-  alert('Lift Off!')
+  alert('Done!')
 }
