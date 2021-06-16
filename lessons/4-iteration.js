@@ -1,3 +1,4 @@
+function lesson4() {
 let list = ''
 let num = -1
 
@@ -7,3 +8,4 @@ while (num != '0') {
 }
 
 alert(list)
+}
